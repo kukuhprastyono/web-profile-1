@@ -1,0 +1,102 @@
+body{
+    overflow-x: hidden;  
+    font-family: 'Lora', serif;}
+
+/* animate */
+.animate__animated.animate__fadeIn{
+    --animate-duration: 2s;
+    --animate-delay: 2s;
+}
+
+
+
+
+/* navbar */
+.kukuh-bg-abu-abu{
+    background-color: rgb(253, 253, 253);
+}
+
+
+/* profile */
+.kukuh-no-padding{
+    padding:0px;
+}
+
+
+.kukuh-profile-txt{
+    width: 60%;
+    margin: 30% 0;
+}
+
+/* skill */
+.kukuh-skill-skill{
+    padding: 8% 10%;
+}
+.card{
+    border-radius: .10rem;
+    border: 1px solid rgba(0,0,0,.100);
+}
+
+/* portofolio */
+.kukuh-portofolio-row{
+    padding: 4% 10%;
+}
+.kukuh-portofolio-filter{
+    filter:grayscale(100%) contrast(110%);
+}
+
+/* social-media */
+.kukuh-social-media-row{
+    padding: 6% 10%;
+}
+.kukuh-social-media-linkedin{
+    width:100%!important;
+}
+.kukuh-social-media-linkedin-image{
+    position: sticky!important;
+    margin-top: 2rem!important;
+}
+
+/* gallery */
+.kukuh-gallery-row{
+    padding: 6% 10%;
+}
+
+
+    
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    /* profile */
+    .kukuh-profile-image{
+        z-index: 2000;
+    }
+
+    /* skill */
+    .kukuh-skill-image{
+        z-index: 2000;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+    body{
+        overflow-y: hidden;
+    }
+    
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
